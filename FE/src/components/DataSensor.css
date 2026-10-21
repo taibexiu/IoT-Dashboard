@@ -1,0 +1,7 @@
+/* Bo loc va gia tri cam bien */
+.data-page { min-width: 0; }
+.sensor-filters { width: min(100%, 470px); grid-template-columns: minmax(0, 1.7fr) minmax(105px, 1fr) 90px; margin-bottom: 0; }
+.search-field { position: relative; min-width: 0; }
+.search-field > svg { color: #8290a0; position: absolute; left: 9px; top: 50%; width: 14px; height: 14px; transform: translateY(-50%); pointer-events: none; }
+.filters .search-field input { padding-left: 32px; }
+.sensor-value { color: var(--cyan); font-weight: 500; font-variant-numeric: tabular-nums; }

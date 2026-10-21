@@ -1,0 +1,7 @@
+/* Bo loc va trang thai lich su */
+.action-filters { width: min(100%, 850px); grid-template-columns: minmax(160px, 1.25fr) minmax(130px, 1fr) minmax(140px, 1fr) minmax(135px, 1fr) 90px; }
+.table-toolbar .action-filters { flex: 1; min-width: 695px; }
+.action-status { font-size: 11px; font-weight: 600; }
+.status-success { color: var(--cyan); }
+.status-failed { color: #ff625b; }
+.status-loading { color: #ebf55f; }

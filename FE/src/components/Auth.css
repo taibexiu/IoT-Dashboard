@@ -1,0 +1,9 @@
+.login-page { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 30px 20px; }
+.login-card { width: 290px; max-width: 100%; padding: 23px 22px; }
+.login-heading { text-align: center; margin-bottom: 20px; }
+.login-heading h1 { font-size: 17px; font-weight: 700; }
+.login-card label { display: block; font-size: 11px; margin: 13px 0 6px; }
+.login-card input { font-size: 12px; height: 32px; border-radius: 4px; padding: 0 9px; }
+.login-button { margin-top: 20px; width: 100%; font-size: 12px; min-height: 34px; border-radius: 4px; font-weight: 500; }
+.session-message { font-size: 12px; color: #f1c782; line-height: 1.6; margin-bottom: 15px; }
+

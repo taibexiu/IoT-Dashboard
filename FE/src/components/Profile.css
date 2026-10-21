@@ -1,0 +1,11 @@
+
+.profile-content { min-height: calc(100vh - 54px); display: flex; align-items: center; justify-content: center; }
+.profile-card { width: 360px; max-width: 100%; padding: 23px; text-align: center; margin: 20px 0; }
+.profile-avatar { width: 60px; height: 60px; margin: 0 auto 12px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--cyan); background: #00c9c10d; color: var(--cyan); font-size: 25px; font-weight: 700; }
+.profile-card h1 { font-size: 16px; font-weight: 600; }
+.profile-subtitle { color: var(--muted); font-size: 12px; margin-top: 9px; }
+.profile-details { margin: 21px 0 0; text-align: left; font-size: 12px; }
+.profile-details > div { display: grid; grid-template-columns: 95px minmax(0, 1fr); gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.profile-details dt { color: var(--muted); }
+.profile-details dd { margin: 0; overflow-wrap: anywhere; }
+.profile-details a { display: inline-flex; align-items: center; gap: 7px; text-underline-offset: 3px; }
